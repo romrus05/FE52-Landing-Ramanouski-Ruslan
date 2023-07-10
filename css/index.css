@@ -1,0 +1,46 @@
+@import url("./fonts.css");
+@import url("./section.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+
+}
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 34px;
+    font-size: 36px;
+    font-weight: 400;
+   color : #212121;
+    font-family:'Raleway';
+}
+.line { 
+    margin: auto;
+    background-color: coral;
+    width: 64px;
+    height: 2px;
+    margin-bottom: 34px;
+    }
+    .descr p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        color : #86878B;
+        }
